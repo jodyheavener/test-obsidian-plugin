@@ -1,4 +1,5 @@
 import { Notice, Plugin } from "obsidian";
+import { greet } from "example_wasm/dist/example_wasm";
 
 export default class WasmPlugin extends Plugin {
 	async onload() {
@@ -6,7 +7,7 @@ export default class WasmPlugin extends Plugin {
 			"bot",
 			"Call WebAssembly function",
 			(evt: MouseEvent) => {
-				new Notice("This will be the response from the WASM call!");
+				new Notice(greet("Obsidian"));
 			}
 		);
 	}

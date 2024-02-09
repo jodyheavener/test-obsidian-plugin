@@ -1,0 +1,1 @@
+/Users/jody/Documents/Obsidian\ Plugin\ Test\ Vault/Plugin\ Test\ Vault/.obsidian/plugins/test-obsidian-plugin/example_wasm/target/wasm32-unknown-unknown/release/example_wasm.wasm: /Users/jody/Documents/Obsidian\ Plugin\ Test\ Vault/Plugin\ Test\ Vault/.obsidian/plugins/test-obsidian-plugin/example_wasm/src/lib.rs
